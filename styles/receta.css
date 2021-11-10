@@ -1,11 +1,31 @@
 /*hoja de estilo de receta de tortilla de patatas*/
-
+@font-face {
+    font-family: tortilla;
+    src: url(../fonts/GlacialIndifference-Regular.otf);
+}
 body {
     background-image: url('../images/fondo.jpg');
+    font-family: tortilla;
+    font-size: 1.15em;
 }
 #container {
     margin: auto;
     background-color: #fff;
     width: 80%;
     height: 100%;
+    padding: 2%;
+}
+#container h1 {
+    text-align: center;
+}
+#container h2 {
+    background-color: #E97676;
+    padding-left: 15px;
+}
+#container dl dt {
+    font-weight: 700;
+}
+#container iframe {
+   display: block;
+   margin: auto;
 }
