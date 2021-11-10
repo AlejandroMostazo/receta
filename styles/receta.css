@@ -1,0 +1,11 @@
+/*hoja de estilo de receta de tortilla de patatas*/
+
+body {
+    background-image: url('../images/fondo.jpg');
+}
+#container {
+    margin: auto;
+    background-color: #fff;
+    width: 80%;
+    height: 100%;
+}
