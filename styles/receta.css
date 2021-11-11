@@ -28,4 +28,18 @@ body {
 #container iframe {
    display: block;
    margin: auto;
+   padding: 0;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        margin: 0;
+    }
+   #container {
+        width: 96%;
+    }
+    iframe {
+        height: 215px;
+    }
+
 }
