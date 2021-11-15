@@ -18,6 +18,11 @@ body {
 #container h1 {
     text-align: center;
 }
+#tortilla {
+    width: 55%;
+    display: block;
+    margin: auto;
+}
 #container h2 {
     background-color: #E97676;
     padding-left: 15px;
@@ -41,5 +46,14 @@ body {
     iframe {
         height: 215px;
     }
+    #tortilla {
+        width: 80%;
+    }
 
+}
+.fa {
+    color: darkcyan;
+}
+.fa-hand-o-right {
+    font-weight: 600;
 }
