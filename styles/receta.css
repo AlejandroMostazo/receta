@@ -20,7 +20,7 @@ body {
 }
 #tortilla {
     width: 55%;
-    display: block;
+    display: block;  /*Se pone display block para que funcione el centrado de margin auto*/
     margin: auto;
 }
 #container h2 {
